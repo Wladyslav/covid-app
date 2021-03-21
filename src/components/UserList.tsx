@@ -7,7 +7,7 @@ const UserList: React.FC = () => {
     (state) => state.covidData
   );
   const { fetchUsers } = useActions();
-  console.log(covidData);
+  console.log(covidData.result);
 
   useEffect(() => {
     fetchUsers();
