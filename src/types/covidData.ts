@@ -35,10 +35,12 @@ interface CovidDataResult {
 }
 
 interface CovidData {
+  count: number;
   result: CovidDataResult[];
 }
 
 export interface CovidDataState {
+  covidData: CovidData | {};
   loading: boolean;
   error: null | string;
 }

@@ -1,4 +1,4 @@
-import * as UserActionsCreators from "./covidData";
+import * as UserActionsCreators from "./user";
 
 export default {
   ...UserActionsCreators,
